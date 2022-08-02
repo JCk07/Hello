@@ -11,6 +11,7 @@ class Flight():
     
     def open_seats(self):
         return self.capacity - len(self.passengers)
+        
 flight = Flight(3)
 person = ["Jackson","Ron","Hermoine","Harry"]
 for people in person:
